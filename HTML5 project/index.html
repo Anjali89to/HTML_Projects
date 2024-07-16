@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey form</title>
+    <style type="text/css">
+        body{
+           background-color: lightgreen;
+           font-family: verdana;
+        } 
+     .form-control{
+        text-align: left
+     }
+     form{
+        margin:50px auto;
+        padding:30px 30px;
+        max-width: 450px;
+        background-color: white;
+     }
+      .form-control input,
+      .form-control Select,
+      .form-control textarea{
+         display: block;
+         padding:10px;
+         width:95%;
+     } 
+     .form-control input[type="radio"]
+     .form-control input[type="checkbox"]{
+        display:inline-block;
+        width:auto;
+     }
+     button{
+        display: block;
+        width:100%;
+        padding: 10px 10px;
+        background-color: lightgreen;
+     }
+
+    </style>
+</head>
+<body>
+  <h1 style="text-align: center;">code crush survey form</h1>  
+  <form style="text-align: center;">
+    <fieldset>
+
+    <div class ="form-control">
+    <label style="display:block; margin-bottom: 10px">Name</label>
+    <input type="text" name="Name" placeholder="Enter you name">
+    </div>
+    <div class ="form-control">
+        <label style="display:block; margin-bottom: 10px">Email</label>
+        <input type="text" name="Name" placeholder="Enter you Email">
+        </div>
+        <div class ="form-control">
+            <label style="display:block; margin-bottom: 10px">Age</label>
+            <input type="text" name="Name" placeholder="Enter you age">
+            </div>
+            <div class ="form-control">
+                <label style="display:block; margin-bottom: 10px">which option is best describe you?</label>
+                <select>
+                    <option>student</option>
+                    <option>Interns </option>
+                    <option>Professionals</option>
+                    <option>other</option>
+                </select>
+
+                </div>
+                <div class ="form-control">
+                    <label style="display:block; margin-bottom: 10px">wolud you recomment code crush to a friend?</label>
+                    <input type="radio" name="choice"> yes
+                    <input type="radio" name="choice"> No
+                    <input type="radio" name="choice"> May be
+
+
+                    </div>
+                    <div class ="form-control">
+                        <label style="display:block; margin-bottom: 10px">languages and framework known</label>
+                        <input type="checkbox" name="select" >java
+                        <input type="checkbox" name="select" >c++
+                        <input type="checkbox" name="select" >python
+
+</div>
+<div class ="form-control">
+    <label style="display:block; margin-bottom: 10px">Any comments or suggestions</label>
+    <textarea placeholder="Enter your comment here"></textarea placeholder></textarea>
+    
+</div>
+    <button type="submit">Submit</button>    
+    </fieldset>
+  </form>
+</body>
+</html>
